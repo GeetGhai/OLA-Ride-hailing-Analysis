@@ -405,7 +405,8 @@ create view total_booking_vs_completed as SELECT
 FROM Fact_Bookings f
 JOIN Customers c 
     ON f.customer_key = c.customer_key
-GROUP BY c.customer_id;
+GROUP BY c.customer_id;
+
 /*E. Vehicle Performance Analysis
 
 How many bookings are made per vehicle type?
