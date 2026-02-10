@@ -1,29 +1,28 @@
-🚖 OLA Ride-Hailing Data Analysis Project
-📌 Project Overview
+# OLA Ride Hailing Data Analysis
+## Overview
 
-This project presents an end-to-end data analysis of OLA ride-hailing operations using SQL and Power BI.
-The goal is to analyze ride patterns, demand trends, revenue metrics, and operational performance to derive actionable business insights.
+This project focuses on an end-to-end data analysis of OLA ride-hailing operations using SQL and Power BI.
+The objective is to analyze ride booking data to uncover demand patterns, revenue insights, and operational trends that can support business decision-making.
 
-The analysis simulates a real-world analytics workflow followed by data analysts in ride-sharing or mobility companies.
+This project follows a real-world analytics workflow commonly used by data analysts.
 
-🎯 Problem Statement
+ ## Objective
 
-To analyze OLA ride-hailing data in order to:
+Analyze ride booking trends
 
-Understand ride demand patterns
+Identify peak demand hours
 
-Identify peak hours and high-demand locations
+Understand revenue distribution
 
-Analyze revenue and trip performance
+Evaluate ride statuses and performance
 
-Support data-driven operational and business decisions
+Generate actionable business insights using data
 
-🗂️ Project Structure
+## 🗂 Project Structure
 ola-ride-hailing-analysis/
 │
 ├── data/
-│   ├── raw/
-│   │   └── Bookings.csv
+│   └── Bookings.csv
 │
 ├── sql/
 │   └── PROJECT.sql
@@ -32,15 +31,15 @@ ola-ride-hailing-analysis/
 │   └── ola.pbix
 │
 ├── screenshots/
-│   └── dashboard_images.png
+│   └── dashboard.png
 │
 └── README.md
 
-📊 Dataset Description
+# 📊 Dataset
 
-The dataset contains booking-level ride information such as:
+The dataset contains ride-level booking information including:
 
-Ride date and time
+Booking date and time
 
 Pickup and drop locations
 
@@ -48,88 +47,91 @@ Ride status
 
 Fare amount
 
-Payment type
+Payment mode
 
-Driver and customer metrics
+Customer and driver details
 
-📁 Source: Simulated / Practice Dataset
-📄 Format: CSV
+## Format: CSV
+Type: Ride booking data (practice / simulated dataset)
 
-🛠️ Tools & Technologies Used
+## Tools & Technologies
 
 SQL – Data cleaning, transformation, and analysis
 
-Power BI – Data modeling, visualization, and dashboard creation
+Power BI – Dashboard creation and visualization
 
-Excel / CSV – Data storage and preprocessing
+CSV / Excel – Data storage and preprocessing
 
-GitHub – Version control and project sharing
+GitHub – Version control and project hosting
 
-🧮 Key SQL Analysis Performed
+## SQL Analysis
 
-Data cleaning and null handling
+SQL was used to:
 
-Ride volume analysis by date and time
+Clean and preprocess data
 
-Peak hour identification
+Handle missing values
 
-Revenue and fare analysis
+Analyze ride volume and trends
 
-Ride status distribution
+Identify peak booking hours
 
-Location-based demand analysis
+Calculate revenue metrics
 
-All SQL queries used in this project are available in:
+Analyze ride status distribution
+
+## 📄 All queries are available in:
 
 sql/PROJECT.sql
 
-📈 Power BI Dashboard Highlights
+# 📈 Power BI Dashboard
 
-The interactive Power BI dashboard includes:
+The Power BI dashboard provides interactive visualizations such as:
 
-Total rides and revenue KPIs
+Total rides and total revenue KPIs
 
-Peak booking hours
+Booking trends over time
 
-Ride demand trends over time
+Peak hours analysis
 
-Revenue contribution analysis
+Revenue contribution insights
 
 Ride status breakdown
 
-📁 Dashboard file:
+## 📁 Dashboard file:
 
 powerbi/ola.pbix
 
 
-📸 Dashboard screenshots are available in the screenshots/ folder for quick viewing.
+Dashboard screenshots are included in the screenshots folder for easy viewing.
 
-💡 Key Business Insights
+## 💡 Key Insights
 
-Identified peak demand hours, helping optimize driver allocation
+Peak demand occurs during specific hours of the day
 
-Highlighted high-revenue ride segments
+Certain ride categories contribute more to revenue
 
-Detected demand fluctuations across time periods
+Demand varies significantly by time and booking status
 
-Provided insights that can improve pricing and operational efficiency
+Insights can help optimize driver allocation and pricing strategy
 
-📌 Conclusion
+## 📌 Conclusion
 
-This project demonstrates my ability to:
+This project demonstrates:
 
-Perform structured SQL analysis
+Strong SQL querying and analytical skills
 
-Translate raw data into meaningful insights
+Ability to convert raw data into insights
 
-Build professional Power BI dashboards
+Hands-on experience with Power BI dashboards
 
-Think from a business and decision-making perspective
+Business-oriented analytical thinking
 
-It reflects the complete workflow expected from a Data Analyst / Business Analyst in real-world scenarios.
+It represents a complete data analyst project lifecycle from raw data to insights.
 
 👤 Author
 
 Geet Ghai
-📊 Aspiring Data Analyst | SQL | Power BI | Python
+Aspiring Data Analyst | SQL | Power BI | Python
+GitHub: https://github.com/GeetGhai BI | Python
 🔗 GitHub: https://github.com/GeetGhai
